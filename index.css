@@ -138,6 +138,8 @@ body {
 
 /* QUERIES */
 
+@
+
 @media (max-width: 800px) {
   body {
     display: grid;
@@ -164,6 +166,13 @@ body {
   }
 }
 
+@media (max-width: 400px) {
+
+  #title {
+    height: 310px;
+  }
+}
+
 @media (min-height: 1000px) {
   body{
     padding-top: 200px;
@@ -175,3 +184,4 @@ body {
     padding-top: 50%;
   }
 }
+
